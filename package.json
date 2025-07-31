@@ -1,0 +1,39 @@
+{
+  "name": "create-nest-cqrs-module",
+  "version": "0.1.0",
+  "description": "Scaffolding Nest CQRS Module",
+  "author": {
+    "name": "cuongboi",
+    "url": "https://github.com/cuongboi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuongboi/create-nest-cqrs-module.git"
+  },
+  "scripts": {
+    "release": "npm version patch && git push origin main --tags && npm publish --access public"
+  },
+  "type": "module",
+  "bin": {
+    "create-dev-lib": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template/**",
+    "scripts"
+  ],
+  "dependencies": {
+    "pluralize": "^8.0.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4"
+  },
+  "homepage": "https://github.com/cuongboi/create-nest-cqrs-module",
+  "bugs": "https://github.com/cuongboi/create-nest-cqrs-module/issues",
+  "license": "MIT",
+  "keywords": [
+    "dev",
+    "nest"
+  ]
+}
