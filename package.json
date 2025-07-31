@@ -1,6 +1,6 @@
 {
   "name": "create-nest-cqrs-module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffolding Nest CQRS Module",
   "author": {
     "name": "cuongboi",
@@ -15,7 +15,7 @@
   },
   "type": "module",
   "bin": {
-    "create-dev-lib": "index.js"
+    "create-nest-cqrs-module": "index.js"
   },
   "files": [
     "index.js",
